@@ -6,10 +6,14 @@
     "jquery": "^3.5.0",
     "jszip": "^3.4.0",
     "progressbar.js": "^1.1.0",
-    "web-ext": "^4.2.0"
+    "web-ext": "^4.3.0"
   },
   "scripts": {
     "start": "web-ext run -s .",
-    "build": "web-ext build -s ."
+    "build": "web-ext build -s .",
+    "//": [
+      "https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext-sign"
+    ],
+    "sign": "web-ext sign --channel unlisted"
   }
 }
